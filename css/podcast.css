@@ -18,7 +18,7 @@
 .animated-slideIn {
     animation: slideIn 1s ease-in-out;
 }
-/* CSS Animation */
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -36,6 +36,7 @@
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b6fb, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
     }
 }
+
 /* Modal CSS */
 .modal {
     display: none;
@@ -71,6 +72,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+
 body {
     margin: 0;
     font-family: 'Lora', serif;
@@ -96,7 +98,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: center; /* Center the links */
-    gap: 4.5rem;
+    gap: 8rem;
 }
 
 .navbar nav ul li a {
@@ -125,7 +127,7 @@ body {
 
 .poster {
     width: 100%; /* Make the image take 100% of the width */
-    height: auto;
+    height: 1500px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
     border-radius: 0; /* Remove rounded corners */
 }
@@ -290,10 +292,6 @@ body {
     background-color: rgba(135, 77, 1, 0.45);
 }
 
-#back-to-top:hover {
-    background-color: rgba(135, 77, 1, 0.45);
-}
-
 /* CSS Animation */
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -305,8 +303,7 @@ body {
 }
 
 /* CSS for Carousel */
-.carousel
-{
+.carousel {
     position: relative;
     max-width: 100%;
     margin: auto;
@@ -347,6 +344,7 @@ body {
     background-color: #000000; /* Black hover */
     color: #ffffff; /* White text on hover */
 }
+
 .trailer {
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
@@ -381,6 +379,7 @@ body {
     height: 100%;
     border: 0;
 }
+
 /* Social Media Section */
 .social-media {
     padding: 2rem;
@@ -432,4 +431,40 @@ body {
 
 .social-icon:hover {
     transform: scale(1.1);
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background-color: #000000; /* Light grey background */
+    margin: 1rem auto; /* Center the section */
+    width: 80%;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #874d01; /* Brown text */
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #ffffff; /* Dark grey text */
+}
+
+.contact a {
+    color: #874d01; /* Brown text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+html
+{
+    scroll-behavior: smooth;
 }
